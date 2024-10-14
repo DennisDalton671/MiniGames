@@ -1,5 +1,7 @@
 package com.example.minigames.ui.navigation
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -34,6 +36,7 @@ sealed class Screen(val route: String) {
     object TinyWingsGame: Screen("tinywinggame")
 }
 
+@RequiresApi(Build.VERSION_CODES.R)
 @Composable
 fun AppNavGraph(navController: NavHostController, appViewModel: AppViewModel) {
     NavHost(navController = navController, startDestination = Screen.Menu.route) {
