@@ -1,5 +1,7 @@
-Mini-Games Android Application
-Project Overview
+#Mini-Games Android Application
+
+##Project Overview
+
 The Mini-Games Android application is a dynamic and evolving platform that brings together a collection of simple yet engaging mini-games. Developed with modularity and scalability in mind, this project serves as a creative playground for experimenting with gameplay mechanics, user interfaces, and state management techniques.
 
 The app currently features games like Snake and Flappy Bird, with more to come as the project progresses. While still a work in progress, it demonstrates the possibilities of building a unified system for hosting diverse games in a single application.
