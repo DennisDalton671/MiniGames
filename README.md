@@ -1,6 +1,6 @@
-#Mini-Games Android Application
+# Mini-Games Android Application
 
-##Project Overview
+## Project Overview
 
 The Mini-Games Android application is a dynamic and evolving platform that brings together a collection of simple yet engaging mini-games. Developed with modularity and scalability in mind, this project serves as a creative playground for experimenting with gameplay mechanics, user interfaces, and state management techniques.
 
