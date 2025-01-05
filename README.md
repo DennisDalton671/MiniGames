@@ -6,14 +6,14 @@ The Mini-Games Android application is a dynamic and evolving platform that bring
 
 The app currently features games like Snake and Flappy Bird, with more to come as the project progresses. While still a work in progress, it demonstrates the possibilities of building a unified system for hosting diverse games in a single application.
 
-Features
-Unified Interface: Navigate seamlessly between different mini-games with a consistent and intuitive UI.
-Dynamic State Management: Smooth transitions between game states such as menus, gameplay, and end screens.
-Modular Design: Each game is independently developed and integrated, allowing for scalable expansion.
-Custom Gameplay Mechanics: Features unique controls and mechanics tailored to each mini-game.
-Touch Controls: Includes gesture-based and tap-based controls for an engaging user experience.
+## Features
+- **Unified Interface**: Navigate seamlessly between different mini-games with a consistent and intuitive UI.
+- **Dynamic State Management**: Smooth transitions between game states such as menus, gameplay, and end screens.
+- **Modular Design**: Each game is independently developed and integrated, allowing for scalable expansion.
+- **Custom Gameplay Mechanics**: Features unique controls and mechanics tailored to each mini-game.
+- **Touch Controls**: Includes gesture-based and tap-based controls for an engaging user experience.
 
-Getting Started
+## Getting Started
 Prerequisites
 Android Studio installed on your machine
 Basic understanding of Android development
