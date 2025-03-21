@@ -173,7 +173,7 @@ fun ArcadeMenuWithDPadAndOffsetButtons(navController: NavController, viewModel: 
                                     .height(50.dp)
                                     .clip(RoundedCornerShape(12.dp))
                             ) {
-                                Text(text = "Asteroids", color = AppTheme.colors.textColor, fontSize = 18.sp)
+                                Text(text = "Space Rocks", color = AppTheme.colors.textColor, fontSize = 18.sp)
                             }
 
                             // Flappy Bird Button
@@ -187,7 +187,7 @@ fun ArcadeMenuWithDPadAndOffsetButtons(navController: NavController, viewModel: 
                                     .height(50.dp)
                                     .clip(RoundedCornerShape(12.dp))
                             ) {
-                                Text(text = "Flappy Bird", color = AppTheme.colors.textColor, fontSize = 18.sp)
+                                Text(text = "Wing Dash", color = AppTheme.colors.textColor, fontSize = 18.sp)
                             }
 
                             // Snake Button
@@ -201,9 +201,10 @@ fun ArcadeMenuWithDPadAndOffsetButtons(navController: NavController, viewModel: 
                                     .height(50.dp)
                                     .clip(RoundedCornerShape(12.dp))
                             ) {
-                                Text(text = "Snake", color = AppTheme.colors.textColor, fontSize = 18.sp)
+                                Text(text = "Neon Serpent", color = AppTheme.colors.textColor, fontSize = 18.sp)
                             }
 
+                            /*
                             // Tiny Wings Button
                             Button(
                                 onClick = {
@@ -216,7 +217,7 @@ fun ArcadeMenuWithDPadAndOffsetButtons(navController: NavController, viewModel: 
                                     .clip(RoundedCornerShape(12.dp))
                             ) {
                                 Text(text = "Tiny Wings (WIP)", color = AppTheme.colors.textColor, fontSize = 18.sp)
-                            }
+                            } */
                         }
                     }
                 }

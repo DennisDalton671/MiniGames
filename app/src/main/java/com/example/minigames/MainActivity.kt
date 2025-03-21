@@ -1,5 +1,6 @@
 package com.example.minigames
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -15,6 +16,7 @@ import com.example.minigames.ui.navigation.AppNavGraph
 import com.example.minigames.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("NewApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

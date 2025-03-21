@@ -17,7 +17,7 @@ fun AsteroidsMenu_UI(navController: NavController, viewModel: AppViewModel) {
     }
     val options = listOf("Play", "Back to Menu") // Specific options for the Snake game
     BaseGameUI(
-        gameTitle = "Asteroids",
+        gameTitle = "Space Rocks",
         options = options,
         textColor = AppTheme.colors.textColor,
         onOptionSelected = { option ->
@@ -34,7 +34,7 @@ fun AsteroidsMenu_UI(navController: NavController, viewModel: AppViewModel) {
             }
         },
         borderColor = AppTheme.colors.textColor,
-        gameDescription = "Out here in the cold vacuum of space, it’s just you, a lot of asteroids, and your ship’s commitment to never stop firing. You can dodge rocks all day long, but don’t try to do the Kessel Run in under 12 parsecs—you’re here for survival!",
+        gameDescription = "Out here in the cold vacuum of space, it’s just you, a lot of space rocks, and your ship’s commitment to never stop firing. You can dodge rocks all day long, but don’t try to do the Kessel Run in under 12 parsecs—you’re here for survival!",
         videoResource = R.raw.asteroids_demo
     )
 }

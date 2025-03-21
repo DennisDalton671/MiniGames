@@ -21,7 +21,7 @@ fun SnakeMenu_UI(navController: NavController, viewModel: AppViewModel) {
         viewModel.startMenuMusic() // Navigate back after setting orientation
     }
     BaseGameUI(
-        gameTitle = "Snake",
+        gameTitle = "Neon Serpent",
         options = options,
         textColor = Color.Green,
         onOptionSelected = { option ->
@@ -38,7 +38,7 @@ fun SnakeMenu_UI(navController: NavController, viewModel: AppViewModel) {
             }
         },
         borderColor = AppTheme.colors.neonGreen,
-        gameDescription = "From ancient Nokia legends: Guide Snake, the original foodie, to endless snacks! But beware—the longer you grow, the harder it gets. Swipe to steer clear of your tail, grab food, and aim for the highest score in this endless classic!",
+        gameDescription = "From retro arcade legends: Guide Neon Serpent, the endless eater, to a buffet of snacks! But beware—the longer you grow, the trickier the challenge. Swipe to slither, avoid yourself, and climb the leaderboard in this endless test of skill!",
         videoResource = R.raw.snake_demo
     )
 }

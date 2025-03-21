@@ -18,7 +18,7 @@ fun FlappyBirdMenu_UI(navController: NavController, viewModel: AppViewModel) {
     }
     val options = listOf("Play", "Back to Menu") // Specific options for the Snake game
     BaseGameUI(
-    gameTitle = "Flappy Bird",
+    gameTitle = "Wing Dash",
     options = options,
     textColor = AppTheme.colors.flappyYellow,
     onOptionSelected = { option ->
@@ -35,7 +35,7 @@ fun FlappyBirdMenu_UI(navController: NavController, viewModel: AppViewModel) {
         }
     },
     borderColor = AppTheme.colors.flappyYellow,
-    gameDescription = "Tap, flap, repeat… and don't crash! Navigate your way through a labyrinth of suspiciously placed pipes. Originally thought to be impossible, only true legends can master the art of the perfect flap. How many pipes can you pass before the rage kicks in?",
+    gameDescription = "Tap, dash, repeat… and don't crash! Navigate your way through a labyrinth of suspiciously placed pipes. Originally thought to be impossible, only true legends can master the art of the perfect flap. How many pipes can you pass before the rage kicks in?",
     videoResource = R.raw.flappybird_demo
     )
 }
